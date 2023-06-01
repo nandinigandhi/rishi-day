@@ -1,0 +1,146 @@
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: "interstate", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #ff7733;
+  }
+
+  span.hamburger-icon {
+    font-size: 36px;
+    cursor: pointer;
+    padding-bottom: -10rem;
+    margin-bottom: -10rem;
+}
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 50px;}
+  }
+
+.text1 {
+  font-family: "interstate", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #ff7733;
+  font-size: 9rem;
+  padding-left: 12rem;
+  padding-top: -10rem;
+  margin-top: -2rem;
+}
+
+.text2 {
+  font-family: "interstate", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #ff7733;
+  font-size: 9rem;
+  padding-left: 12rem;
+  padding-bottom: -3rem;
+  margin-bottom: -5rem;
+  padding-top: -5rem;
+  margin-top: -5rem;
+}
+
+.text3 {
+  font-family: "interstate", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: red;
+  font-size: 9rem;
+  padding-left: 12rem;
+  padding-top: -5rem;
+  margin-top: -5rem;
+}
+
+.logo {
+  padding-left: 2rem;
+  margin-top: -2rem;
+  padding-top: -2rem;
+}
+
+.intro {
+  font-family: "interstate", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20%;
+  padding-left: 2rem;
+  color: #ff7733;
+  margin-bottom: 0rem;
+  margin-bottom: 2rem;
+  margin-top: 0rem;
+  padding-top: 0rem;
+}
+
+.main-image {
+  padding-top: 0rem;
+  margin-top: 0rem;
+}
+
+.end-text-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.end-text {
+  font-family: "interstate", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #ff7733;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.end-text2 {
+  font-family: "interstate", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #ff7733;
+  font-size: 2rem;
+  padding-right: 2rem;
+}
+
+body {
+  background-color: #f2f2f2;
+}
